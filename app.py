@@ -6,6 +6,6 @@ from sqslambdademo.sqslambdademo_stack import SqslambdademoStack
 
 
 app = cdk.App()
-SqslambdademoStack(app, "SqslambdademoStack")
+SqslambdademoStack(app, "sqs-lambda-demo")
 
 app.synth()
